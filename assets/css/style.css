@@ -1,1 +1,50 @@
-/* this is an empty css file */
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black;
+    color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 70px;
+    font-weight: 450;
+}
+.image-sect {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.main,
+.main1,
+.main2
+{
+    padding: 30px;
+}
+.main{
+    font-size: 35px;
+}
+.main1{
+    padding: 100px 70px 0 45px;
+}
+.main2 h4{
+    border-bottom: 2px solid rgb white;
+    padding: 12px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.text-sect
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
